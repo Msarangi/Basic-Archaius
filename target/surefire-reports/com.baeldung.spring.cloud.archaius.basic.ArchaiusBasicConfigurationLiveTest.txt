@@ -1,0 +1,14 @@
+-------------------------------------------------------------------------------
+Test set: com.baeldung.spring.cloud.archaius.basic.ArchaiusBasicConfigurationLiveTest
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 0, Errors: 2, Skipped: 0, Time elapsed: 5.105 sec <<< FAILURE! - in com.baeldung.spring.cloud.archaius.basic.ArchaiusBasicConfigurationLiveTest
+givenDefaultConfigurationSetup_whenRequestProperties_thenEndpointRetrievesValuesInFiles(com.baeldung.spring.cloud.archaius.basic.ArchaiusBasicConfigurationLiveTest)  Time elapsed: 0.191 sec  <<< ERROR!
+org.springframework.web.client.RestClientException: Could not extract response: no suitable HttpMessageConverter found for response type [java.util.Map<java.lang.String, java.lang.String>] and content type [text/html;charset=utf-8]
+	at com.baeldung.spring.cloud.archaius.basic.ArchaiusBasicConfigurationLiveTest.exchangeAsMap(ArchaiusBasicConfigurationLiveTest.java:55)
+	at com.baeldung.spring.cloud.archaius.basic.ArchaiusBasicConfigurationLiveTest.givenDefaultConfigurationSetup_whenRequestProperties_thenEndpointRetrievesValuesInFiles(ArchaiusBasicConfigurationLiveTest.java:61)
+
+givenNonDefaultConfigurationFilesSetup_whenRequestSpringVisibleProperties_thenEndpointDoesntRetrieveArchaiusProperties(com.baeldung.spring.cloud.archaius.basic.ArchaiusBasicConfigurationLiveTest)  Time elapsed: 0.026 sec  <<< ERROR!
+org.springframework.web.client.RestClientException: Could not extract response: no suitable HttpMessageConverter found for response type [java.util.Map<java.lang.String, java.lang.String>] and content type [text/html;charset=utf-8]
+	at com.baeldung.spring.cloud.archaius.basic.ArchaiusBasicConfigurationLiveTest.exchangeAsMap(ArchaiusBasicConfigurationLiveTest.java:55)
+	at com.baeldung.spring.cloud.archaius.basic.ArchaiusBasicConfigurationLiveTest.givenNonDefaultConfigurationFilesSetup_whenRequestSpringVisibleProperties_thenEndpointDoesntRetrieveArchaiusProperties(ArchaiusBasicConfigurationLiveTest.java:69)
+

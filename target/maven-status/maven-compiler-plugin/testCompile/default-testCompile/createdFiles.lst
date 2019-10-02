@@ -1,0 +1,8 @@
+org\baeldung\SpringContextIntegrationTest.class
+com\baeldung\spring\cloud\archaius\basic\ArchaiusBasicConfigurationLiveTest.class
+org\baeldung\SpringContextTest.class
+com\baeldung\spring\cloud\archaius\basic\ArchaiusBasicConfigurationIntegrationTest.class
+com\baeldung\spring\cloud\archaius\basic\ArchaiusBasicConfigurationLiveTest$2.class
+com\baeldung\spring\cloud\archaius\basic\SpringContextTest.class
+com\baeldung\spring\cloud\archaius\basic\ArchaiusBasicConfigurationLiveTest$1.class
+com\baeldung\spring\cloud\archaius\basic\SpringContextIntegrationTest.class
